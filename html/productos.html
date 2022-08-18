@@ -7,6 +7,7 @@
     <title>Productos</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body class="productosGrid">
@@ -27,7 +28,9 @@
     </header>
 
     <main class="productosMain">
-      <h2>Productos</h2>
+      <h2 data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Productos</h2>
 
 <div class="productos">
       <div class="producto">
@@ -125,5 +128,11 @@
     <footer class="footer">
       <p>Distribuidor Boris 2022</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
   </body>
 </html>

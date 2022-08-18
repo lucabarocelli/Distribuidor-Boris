@@ -7,6 +7,7 @@
     <title>Calidad</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="calidadGrid">
 
@@ -27,7 +28,9 @@
 
     <main class="calidadMain">
       <section class="calidad">
-      <h2 class="calidadT">Calidad</h2>
+      <h2 class="calidadT" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Calidad</h2>
       <p class="calidadP">
         En Boris siempre ha primado la innovación tecnológica y la calidad en el
         campo de la fabricación de calzado de seguridad y adoptando los últimos
@@ -50,7 +53,7 @@
         destinado a proteger las extemidades inferiores del usuario de posibles
         riesgos.
       </p>
-      <img src="../img/norma-iram.webp" alt="Norma IRAM 3610" class="imagenNorma"/>
+      <img src="../img/norma-iram.webp" alt="Norma IRAM 3610" class="imagenNorma" data-aos="flip-left"/>
     </section>
     </main>
 
@@ -58,5 +61,9 @@
       <p>Distribuidor Boris 2022</p>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

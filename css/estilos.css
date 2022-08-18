@@ -152,8 +152,7 @@ footer p {
     margin: auto;
     padding-top: 20px;
   }
-}    
-
+}
 
 /* CALIDAD.HTML */
 
@@ -188,16 +187,15 @@ footer p {
   color: white;
 }
 
-
 @media (max-width: 480px) {
   .calidadGrid {
     display: grid;
-    grid-template-areas: 
-    "header"
-    "calT"
-    "calP"
-    "calImg"
-    "footer";
+    grid-template-areas:
+      "header"
+      "calT"
+      "calP"
+      "calImg"
+      "footer";
   }
 
   .calidadGrid ul {
@@ -235,7 +233,6 @@ footer p {
   left: 4rem;
 }
 
-
 /* CONTACTO.HTML */
 
 .contactoMain {
@@ -254,6 +251,9 @@ footer p {
   width: 45rem;
   margin: 0 auto;
   padding: 3rem;
+  -webkit-box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
 }
 
 .formulario input {
@@ -282,7 +282,7 @@ footer p {
   outline: none;
 }
 
-.formulario button {
+/* .formulario button {
   width: 6rem;
   height: 3rem;
   margin-left: 38.9rem;
@@ -290,6 +290,29 @@ footer p {
   color: white;
   border: none;
   border-radius: 15%;
+  cursor: pointer;
+} */
+
+.button {
+  margin-left: 38.9rem;
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3772ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #5e75ab;
+}
+
+.button:hover {background-color: #2c5ccc}
+
+.button:active {
+  background-color: #2c5ccc;
+  box-shadow: 0 5px #5e75ab;
+  transform: translateY(4px);
 }
 
 textarea {
@@ -297,7 +320,6 @@ textarea {
   max-width: 43.6rem;
   max-height: 15rem;
 }
-
 
 /* PRODUCTOS.HTML */
 
@@ -326,6 +348,9 @@ textarea {
   margin: 1rem 4rem;
   text-align: center;
   border-radius: 1.3rem;
+  -webkit-box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
 }
 
 .producto img {
@@ -340,4 +365,3 @@ textarea {
   font-weight: bold;
   color: black;
 }
-

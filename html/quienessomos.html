@@ -7,6 +7,7 @@
     <title>Quienes Somos</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -25,11 +26,13 @@
     </header>
 
     <main class="quienesSomosMain">
-      <h2>Quienes somos</h2>
+      <h2 data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Quienes somos</h2>
 
     <div class="quienesSomosContenido">
       <div class="quienesSomosImagen">
-        <img src="../img/quienes-somos2.png" alt="">
+        <img src="../img/quienes-somos2.png" alt="" data-aos="fade-up-right">
       </div>
 
     
@@ -59,5 +62,10 @@
     <footer class="footer">
       <p>Distribuidor Boris 2022</p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

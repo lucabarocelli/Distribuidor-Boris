@@ -23,28 +23,28 @@ header {
   grid-area: header;
 }
 
-.logo {
-  height: 6rem;
-  width: auto;
-  margin-top: 0.4rem;
-  margin-left: 2rem;
+.navegador {
+  background-color: #df2935;
 }
 
-.navegador {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 50rem;
-  margin-right: 10rem;
-  text-transform: uppercase;
-  position: relative;
-  bottom: 3rem;
+.navegador ul {
+  margin-right: 2rem;
+}
+
+.navegador ul li {
+  margin: 10px;
+}
+
+.navegador img {
+  width: 200px;
+  margin-left: 1rem;
 }
 
 .navegador a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 footer {
@@ -107,78 +107,32 @@ footer p {
   align-items: center;
 }
 
-@media (max-width: 480px) {
-  .gridPadre {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "imgP"
-      "sUno"
-      "sDos"
-      "footer";
-  }
-
-  .imagenPrincipal {
-    margin-top: 9rem;
-  }
-
-  .parteUno {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .parteUno img {
-    width: 100%;
-    height: auto;
-  }
-
-  .parteDos {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .parteDos img {
-    width: 100%;
-    height: auto;
-  }
-
-  .parrafo {
-    font-size: 1.25rem;
-    margin: 25px;
-  }
-
-  .logo {
-    display: flex;
-    margin: auto;
-    padding-top: 20px;
-  }
-}
 
 /* CALIDAD.HTML */
 
 .calidadMain {
   padding-top: 11rem;
-  padding-left: 7rem;
-  padding-right: 10rem;
 }
 
 .calidadT {
   font-size: 3.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
-  grid-area: calT;
+  font-weight: bold;
+  margin-left: 4rem;
 }
 
 .calidadP {
   font-size: 2rem;
   margin-bottom: 3rem;
-  grid-area: calP;
 }
 
 .imagenNorma {
-  margin-left: 30rem;
   margin-bottom: 5rem;
-  grid-area: calImg;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
 }
 
 .linkNorma {
@@ -187,28 +141,8 @@ footer p {
   color: white;
 }
 
-@media (max-width: 480px) {
-  .calidadGrid {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "calT"
-      "calP"
-      "calImg"
-      "footer";
-  }
 
-  .calidadGrid ul {
-    display: none;
-  }
-
-  .imagenNorma {
-    margin: auto;
-    margin-bottom: 2rem;
-  }
-}
-
-/* QUIENESSOMOS.HTML */
+/* CONOCENOS.HTML */
 
 .quienesSomosMain {
   padding: 14rem 8rem 7rem 5rem;
@@ -223,6 +157,7 @@ footer p {
   font-size: 3.5rem;
   margin-bottom: 3.7rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .quienesSomosParrafo {
@@ -232,6 +167,7 @@ footer p {
   bottom: 1rem;
   left: 4rem;
 }
+
 
 /* CONTACTO.HTML */
 
@@ -320,21 +256,14 @@ textarea {
   text-transform: uppercase;
   font-size: 3.5rem;
   margin-bottom: 3.7rem;
-}
-
-.productos {
-  width: 110rem;
-  height: 80rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .producto {
   background-color: white;
   height: 18rem;
   width: 20rem;
-  margin: 1rem 4rem;
+  margin-bottom: 5rem;
   text-align: center;
   border-radius: 1.3rem;
   -webkit-box-shadow: 22px 22px 48px -6px rgba(0, 0, 0, 0.75);
@@ -353,4 +282,5 @@ textarea {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  text-transform: uppercase;
 }

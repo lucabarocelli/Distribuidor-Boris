@@ -1,0 +1,24 @@
+.button {
+    margin-top: 30px;
+    margin-bottom: 5rem;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #df2935;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #b4202a;
+  
+    &:hover {
+      background-color: #df2935;
+    }
+  
+    &:active {
+      background-color: #df2935;
+      box-shadow: 0 5px #b4202a;
+      transform: translateY(4px);
+    }
+  }

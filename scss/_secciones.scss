@@ -1,0 +1,43 @@
+.parteUno {
+    display: flex;
+    border: white solid 7px;
+    width: 80%;
+    margin: 4rem auto 4rem auto;
+  
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    img {
+      width: 37rem;
+      height: auto;
+    }
+  }
+  
+  .parteDos {
+    display: flex;
+    flex-direction: row-reverse;
+    border: white solid 7px;
+    width: 80%;
+    margin: auto auto 4rem auto;
+  
+    p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    img {
+      width: 37rem;
+      height: auto;
+    }
+  }
+  
+  .parrafo {
+    font-size: 2rem;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }

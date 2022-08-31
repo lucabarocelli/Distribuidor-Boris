@@ -1,0 +1,98 @@
+@import "header.scss";
+@import "footer.scss";
+@import "media.scss";
+@import "producto.scss";
+@import "nav.scss";
+@import "secciones.scss";
+@import "boton-contacto.scss";
+@import "contacto-main";
+@import "productos.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,800&family=Oswald:wght@200;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  background-color: #3772ff;
+  font-size: 20px;
+  color: white;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+  }
+
+
+/* CALIDAD.HTML */
+
+.calidadMain {
+    padding-top: 11rem;
+  }
+  
+  .calidadT {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 4rem;
+  }
+  
+  .calidadP {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .imagenNorma {
+    margin-bottom: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+  }
+  
+  .linkNorma {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }  
+
+
+/* CONOCENOS.HTML */
+
+.quienesSomosMain {
+    padding-top: 14rem;
+    padding-bottom: 5rem;
+  }
+  
+  .quienesSomosImagen {
+    margin-right: 2rem;
+  }
+  
+  .quienesSomosContenido {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quienesSomosMain h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3.7rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .quienesSomosParrafo {
+    border: 0.25rem white solid;
+    padding: 2rem;
+    margin-right: 5rem;
+  }  

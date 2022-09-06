@@ -17,8 +17,9 @@
     }
   
     &:active {
-      background-color: #df2935;
+      @extend &:hover;
       box-shadow: 0 5px #b4202a;
       transform: translateY(4px);
     }
   }
+

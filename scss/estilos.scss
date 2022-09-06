@@ -27,72 +27,69 @@ body {
 }
 
 .imagenPrincipal {
-    width: 100%;
-    height: auto;
-    margin-top: 5rem;
-  }
-
+  width: 100%;
+  height: auto;
+  margin-top: 5rem;
+}
 
 /* CALIDAD.HTML */
 
 .calidadMain {
-    padding-top: 11rem;
-  }
-  
-  .calidadT {
+  padding-top: 11rem;
+  h1 {
     font-size: 3.5rem;
     margin-bottom: 4rem;
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 4rem;
   }
-  
-  .calidadP {
-    font-size: 2rem;
-    margin-bottom: 3rem;
-  }
-  
-  .imagenNorma {
-    margin-bottom: 5rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-  }
-  
-  .linkNorma {
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-  }  
+}
 
+.calidadP {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.imagenNorma {
+  margin-bottom: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.linkNorma {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
 
 /* CONOCENOS.HTML */
 
 .quienesSomosMain {
-    padding-top: 14rem;
-    padding-bottom: 5rem;
-  }
-  
-  .quienesSomosImagen {
-    margin-right: 2rem;
-  }
-  
-  .quienesSomosContenido {
-    display: flex;
-    align-items: center;
-  }
-  
-  .quienesSomosMain h2 {
-    font-size: 3.5rem;
-    margin-bottom: 3.7rem;
-    margin-left: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  .quienesSomosParrafo {
-    border: 0.25rem white solid;
-    padding: 2rem;
-    margin-right: 5rem;
-  }  
+  padding-top: 14rem;
+  padding-bottom: 5rem;
+}
+
+.quienesSomosImagen {
+  margin-right: 2rem;
+}
+
+.quienesSomosContenido {
+  display: flex;
+  align-items: center;
+}
+
+.quienesSomosMain h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3.7rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quienesSomosParrafo {
+  border: 0.25rem white solid;
+  padding: 2rem;
+  margin-right: 5rem;
+}

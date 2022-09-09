@@ -1,55 +1,55 @@
 @media (max-width: 1557px) {
-    .parteUno {
-      margin-top: 5rem;
-  
-      img {
-        display: none;
-      }
-    }
-  
-    .parteDos img {
+  .parteUno {
+    margin-top: 5rem;
+
+    img {
       display: none;
     }
-  
-    .parrafo {
-      margin-top: 40px;
-      margin-bottom: 40px;
-    }
-  
-    .parteDos {
-      margin-bottom: 10rem;
-    }
-  }
-  
-  @media (max-width: 497px) {
-    .imagenPrincipal {
-      margin-top: 8rem;
-    }
   }
 
-  @media (max-width: 1594px) {
-    .quienesSomosContenido img {
-      display: none;
-    }
-  
-    .quienesSomosParrafo {
-      margin-right: 50px;
-      margin-bottom: 5rem;
-    }
-  
-    .quienesSomosMain h1 {
-      margin-left: 1rem;
-    }
+  .parteDos img {
+    display: none;
   }
 
-  @media (max-width: 450px) {
-    .contactoMain {
-      padding-left: 1rem;
-    }
+  .parrafo {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
-  @media (max-width: 495px) {
-    .productosMain {
-      padding: 12rem 5rem 5rem 1.7rem;
-    }
+  .parteDos {
+    margin-bottom: 10rem;
   }
+}
+
+@media (max-width: 497px) {
+  .imagenPrincipal {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 1594px) {
+  .quienesSomosContenido img {
+    display: none;
+  }
+
+  .quienesSomosParrafo {
+    margin-right: 50px;
+    margin-bottom: 5rem;
+  }
+
+  .quienesSomosMain h1 {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contactoMain {
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 495px) {
+  .productosMain {
+    padding: 12rem 5rem 5rem auto;
+  }
+}

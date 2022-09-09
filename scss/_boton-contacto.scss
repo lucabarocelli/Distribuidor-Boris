@@ -17,7 +17,7 @@
     }
   
     &:active {
-      @extend &:hover;
+      background-color: #df2935;
       box-shadow: 0 5px #b4202a;
       transform: translateY(4px);
     }

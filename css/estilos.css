@@ -6,33 +6,13 @@ header {
 
 footer {
   background-color: #14213d;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 3rem; }
-  footer img {
-    width: 200px;
-    height: auto; }
-  footer ul li {
-    display: inline-block;
-    margin: 7px; }
-    footer ul li a {
-      text-decoration: none;
-      color: white;
-      font-weight: bold; }
-
-@media (max-width: 1557px) {
-  .parteUno {
-    margin-top: 5rem; }
-    .parteUno img {
-      display: none; }
-  .parteDos img {
-    display: none; }
-  .parrafo {
-    margin-top: 40px;
-    margin-bottom: 40px; }
-  .parteDos {
-    margin-bottom: 10rem; } }
+  margin-top: 5rem; }
+  footer h3 {
+    font-weight: bold; }
+  footer ul li a {
+    text-decoration: none; }
+  footer a {
+    text-decoration: none; }
 
 @media (max-width: 497px) {
   .imagenPrincipal {
@@ -50,10 +30,6 @@ footer {
 @media (max-width: 450px) {
   .contactoMain {
     padding-left: 1rem; } }
-
-@media (max-width: 495px) {
-  .productosMain {
-    padding: 12rem 5rem 5rem auto; } }
 
 .producto {
   background-color: white;
@@ -91,36 +67,24 @@ footer {
   font-weight: bold;
   text-transform: uppercase; }
 
-.parteUno {
-  display: flex;
-  border: white solid 7px;
-  width: 80%;
-  margin: 4rem auto 4rem auto; }
-  .parteUno p {
-    margin-left: 20px;
-    margin-right: 20px; }
-  .parteUno img {
-    width: 37rem;
-    height: auto; }
+.carta {
+  width: 20rem;
+  position: static; }
+  .carta h2 {
+    color: black;
+    font-weight: bold; }
+  .carta p {
+    color: black;
+    position: static; }
+  .carta img {
+    margin-top: 20px; }
+  .carta .cardImg {
+    height: 235px;
+    width: 280px;
+    margin: 20px auto; }
 
-.parteDos {
-  display: flex;
-  flex-direction: row-reverse;
-  border: white solid 7px;
-  width: 80%;
-  margin: auto auto 4rem auto; }
-  .parteDos p {
-    margin-left: 20px;
-    margin-right: 20px; }
-  .parteDos img {
-    width: 37rem;
-    height: auto; }
-
-.parrafo {
-  font-size: 2rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center; }
+.card {
+  margin: 4rem auto; }
 
 .button {
   margin-top: 30px;

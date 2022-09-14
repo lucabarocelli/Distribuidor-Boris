@@ -1,53 +1,25 @@
-$estilo: (
-  display: flex,
-  border: white solid 7px,
-  width: 80%,
-);
+.carta {
+  width: 20rem;
+  position: static;
 
-@mixin parrafos {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-@mixin img {
-  width: 37rem;
-  height: auto;
-}
-
-.parteUno {
-  display: map-get($estilo, display);
-  border: map-get($estilo, border);
-  width: map-get($estilo, width);
-  margin: 4rem auto 4rem auto;
-
+  h2 {
+    color: black;
+    font-weight: bold;
+  }
   p {
-    @include parrafos;
+    color: black;
+    position: static;
   }
-
   img {
-    @include img;
+    margin-top: 20px;
+  }
+  .cardImg {
+    height: 235px;
+    width: 280px;
+    margin: 20px auto;
   }
 }
 
-.parteDos {
-  display: map-get($estilo, display);
-  flex-direction: row-reverse;
-  border: map-get($estilo, border);
-  width: map-get($estilo, width);
-  margin: auto auto 4rem auto;
-
-  p {
-    @include parrafos;
-  }
-
-  img {
-    @include img;
-  }
-}
-
-.parrafo {
-  font-size: 2rem;
-  margin: 0 auto;
-  display: map-get($estilo, display);
-  align-items: center;
+.card {
+  margin: 4rem auto;
 }

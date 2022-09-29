@@ -9,6 +9,9 @@
 @import "productos";
 @import "variables";
 @import "carousel";
+@import "quienesSomosMain";
+@import "calidadMain";
+@import "imgPrincipal";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;0,900;1,800&family=Oswald:wght@200;300;400&display=swap");
 
@@ -26,79 +29,4 @@ body {
   background-color: #3772ff;
   font-size: 20px;
   color: white;
-}
-
-.imagenPrincipal {
-  width: 100%;
-  height: auto;
-}
-
-/* CALIDAD.HTML */
-
-.calidadMain {
-  padding-top: 11rem;
-  h1 {
-    font-size: $tamFuente;
-    margin-bottom: 4rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: $margin-left;
-  }
-  .calidadCard {
-    position: static;
-    margin: 5rem auto;
-    h2 {
-      color: black;
-      font-weight: bold;
-      margin: 1rem auto 2.5rem 1rem;
-      text-transform: uppercase;
-    }
-    p {
-      color: black;
-      margin: 0.7rem;
-    }
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }
-  .norma {
-    margin-top: 5rem;
-    h2 {
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 2rem;
-    }
-    p{
-      margin-bottom: 2rem;
-    }
-  }
-  .imagenNorma {
-    img {
-      width: 22rem;
-      display: flex;
-      justify-content: center;
-      margin: 4rem auto;
-    }
-  }
-}
-
-/* CONOCENOS.HTML */
-
-.quienesSomosMain {
-  padding-top: 14rem;
-  padding-bottom: 5rem;
-
-  h1 {
-    font-size: $tamFuente;
-    margin-bottom: 5rem;
-    margin-left: $margin-left;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  p {
-    border: solid white 3px;
-    padding: 3rem;
-    margin: 4rem 1rem;
-  }
 }

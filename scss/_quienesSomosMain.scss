@@ -1,0 +1,17 @@
+.quienesSomosMain {
+  padding-top: 14rem;
+  padding-bottom: 5rem;
+
+  h1 {
+    font-size: $tamFuente;
+    margin-bottom: 5rem;
+    margin-left: $margin-left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  p {
+    border: solid white 3px;
+    padding: 2rem;
+    margin: 5rem 1.3rem;
+  }
+}

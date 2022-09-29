@@ -215,4 +215,6 @@ body {
     text-transform: uppercase;
     font-weight: bold; }
   .quienesSomosMain p {
-    margin: 5rem; }
+    border: solid white 3px;
+    padding: 3rem;
+    margin: 4rem 1rem; }

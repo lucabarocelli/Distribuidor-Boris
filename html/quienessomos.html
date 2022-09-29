@@ -18,14 +18,13 @@
       href="../img/favicon-boris.jpg"
       type="image/x-icon"
     />
-    <!-- BOOTSTRAP -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilos.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -62,7 +61,7 @@
                 <a class="nav-link" href="./calidad.html">Calidad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./calidad.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -71,49 +70,63 @@
     </header>
 
     <main class="quienesSomosMain">
-      <h1>Conocenos</h1>
+      <section>
+        <h1>Conocenos</h1>
 
-      <div class="quienesSomosContenido">
-        <div class="quienesSomosImagen">
-          <img src="../img/quienes-somos2.png" alt="" />
+        <div class="carrusel">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../img/fabrica-boris.jpg"
+                  class="d-block w-100 carImg"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../img/boris-zapatos.jpg"
+                  class="d-block w-100 carImg"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../img/Botin-tecnico.webp"
+                  class="d-block w-100 carImg"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="quienesSomosParrafo text-center">
-          <p>
-            Fundada en 1962 BORIS HNOS S.A. es hoy, una empresa líder en calzado
-            de seguridad, en la República Argentina.
-            <br /><br />
-            Boris Hnos S.A. busca innovar constantemente en pos de poder brindar
-            el mejor producto al mercado.
-            <br /><br />
-            Utilizamos los mejores cueros y telas, un método de producción
-            eficiente y un seguimiento de normas ISO en toda su cadena
-            producción, hacen que los productos BORIS® otorguen la mejor
-            relación costo-beneficio y una garantía de calidad única en el
-            mercado.
-            <br /><br />
-            Los productos BORIS® son comercializados en forma directa a grandes
-            consumidores y a través de distribuidores en las principales
-            ciudades de todo el país.
-          </p>
-        </div>
-      </div>
+        <article>
+            <p class="card-text">
+              Brindando soluciones para Empresas e Industrias, desde hace más de 50 años! Boris Hnos S.A. busca innovar constantemente en pos de poder brindar el mejor producto al mercado, así, introdujo su nueva línea de productos “Alta Gama” que apuntan a lograr mayor confort y protección, incorporando un diseño altamente moderno e innovador.
+            </p>
+        </article>
     </main>
 
-    <footer class="text-center text-lg-start text-white"> 
+    <footer class="text-center text-lg-start text-white">
       <div class="container p-4">
         <div class="row my-4">
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-  
-            <div class="rounded-circle bg-black shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
-              <img src="../img/logo.png" height="70" alt=""
-                   loading="lazy" />
+            <div
+              class="rounded-circle bg-black shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+              style="width: 150px; height: 150px"
+            >
+              <img src="../img/logo.png" height="70" alt="" loading="lazy" />
             </div>
-  
           </div>
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h3 class="text-uppercase mb-4">Secciones</h3>
-  
+
             <ul class="list-unstyled">
               <li class="mb-2">
                 <a href="../index.html" class="text-white">Inicio</a>
@@ -132,6 +145,28 @@
               </li>
             </ul>
           </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h3 class="text-uppercase mb-4">Contacto</h3>
+
+            <ul class="list-unstyled">
+              <li>
+                <p>distribuidorboris@gmail.com</p>
+              </li>
+              <li>¡Encontranos como Boris Hnos. en Facebook e Instagram!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >Distribuidor Boris</a
+        >
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

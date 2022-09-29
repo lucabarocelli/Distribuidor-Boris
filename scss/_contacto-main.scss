@@ -1,11 +1,19 @@
+@import "variables";
 
 .contactoMain {
-    padding: 12rem 5rem 5rem 5rem;
-  
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    padding-right: 2rem;
+
     h1 {
-      font-size: 3.5rem;
+      font-size: $tamFuente;
+      margin-left: $margin-left;
       font-weight: bold;
       margin-bottom: 4rem;
       text-transform: uppercase;
+    }
+
+    .nombreApellido {
+      max-width: 30rem;
     }
   }

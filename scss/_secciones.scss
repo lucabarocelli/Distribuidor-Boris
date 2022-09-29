@@ -1,25 +1,28 @@
-.carta {
-  width: 20rem;
-  position: static;
 
-  h2 {
-    color: black;
-    font-weight: bold;
-  }
-  p {
-    color: black;
+.cartas {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+
+  .carta {
+    width: 20rem;
     position: static;
+  
+    h2 {
+      color: black;
+      font-weight: bold;
+    }
+    p {
+      color: black;
+      position: static;
+    }
+    img {
+      margin-top: 20px;
+    }
+    .cardImg {
+      height: 235px;
+      width: 280px;
+      margin: 20px auto;
+    }
   }
-  img {
-    margin-top: 20px;
-  }
-  .cardImg {
-    height: 235px;
-    width: 280px;
-    margin: 20px auto;
-  }
-}
-
-.card {
-  margin: 4rem auto;
 }

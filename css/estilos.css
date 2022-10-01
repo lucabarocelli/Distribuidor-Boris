@@ -42,9 +42,7 @@ footer {
 
 @media (max-width: 380px) {
   .imagenNorma {
-    display: none; }
-  .norma p {
-    margin-top: 5rem; } }
+    display: none; } }
 
 .producto {
   background-color: white;

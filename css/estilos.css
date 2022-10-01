@@ -40,6 +40,10 @@ footer {
   .calidadCard {
     display: none; } }
 
+@media (max-width: 380px) {
+  .calidadCard {
+    display: none; } }
+
 .producto {
   background-color: white;
   height: 16rem;
@@ -160,6 +164,7 @@ footer {
     text-transform: uppercase;
     font-weight: bold; }
   .quienesSomosMain p {
+    text-align: center;
     border: solid white 3px;
     padding: 2rem;
     margin: 5rem 1.3rem; }

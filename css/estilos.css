@@ -41,10 +41,6 @@ footer {
     display: none; } }
 
 @media (max-width: 380px) {
-  .calidadMain .calidadCard {
-    display: none; } }
-
-@media (max-width: 380px) {
   .imagenNorma {
     display: none; }
   .norma p {

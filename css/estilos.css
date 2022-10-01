@@ -41,8 +41,14 @@ footer {
     display: none; } }
 
 @media (max-width: 380px) {
-  .calidadCard {
+  .calidadMain .calidadCard {
     display: none; } }
+
+@media (max-width: 380px) {
+  .imagenNorma {
+    display: none; }
+  .norma p {
+    margin-top: 5rem; } }
 
 .producto {
   background-color: white;
